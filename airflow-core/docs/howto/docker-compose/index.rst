@@ -297,7 +297,7 @@ Here is a sample ``curl`` command, which sends a request to retrieve a pool list
     ENDPOINT_URL="http://localhost:8080"
     curl -X GET  \
         --user "airflow:airflow" \
-        "${ENDPOINT_URL}/api/v1/pools"
+        "${ENDPOINT_URL}/api/v2/pools"
 
 Cleaning up
 ===========
